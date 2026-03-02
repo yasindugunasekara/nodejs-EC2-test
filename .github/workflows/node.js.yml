@@ -30,3 +30,4 @@ jobs:
         run: |
             touch .env
             echo "MONGODB_URL=${{ secrets.MONGODB_URL }}" >> .env
+      - run: pm2 restart BackendAPI
