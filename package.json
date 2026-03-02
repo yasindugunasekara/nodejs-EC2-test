@@ -1,0 +1,30 @@
+{
+  "name": "nodejs_app",
+  "version": "1.0.0",
+  "description": "This repository demonstrates a streamlined approach to deploying a Node.js REST API on an AWS EC2 instance using GitHub Actions for continuous integration and continuous deployment (CI/CD).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "mongodb": "^6.21.0",
+    "mongoose": "^8.23.0",
+    "nodemon": "^3.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HGSChandeepa/nodejs-rest-api-EC2.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HGSChandeepa/nodejs-rest-api-EC2/issues"
+  },
+  "homepage": "https://github.com/HGSChandeepa/nodejs-rest-api-EC2#readme"
+}
